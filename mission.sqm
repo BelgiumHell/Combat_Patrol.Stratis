@@ -39,7 +39,6 @@ class Mission
 		"A3_Modules_F_Curator_Curator",
 		"cse_sys_ieds",
 		"A3_Characters_F_INDEP",
-		"A3_Armor_F_Panther",
 		"A3_Weapons_F_Ammoboxes",
 		"EWK_M1151",
 		"a3_map_stratis"
@@ -75,7 +74,7 @@ class Mission
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
-					player="PLAY CDG";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -85,7 +84,7 @@ class Mission
 				items=13;
 				class Item0
 				{
-					position[]={4329.2813,222.74033,3780.4878};
+					position[]={4333.6069,223.65111,3788.0234};
 					class Effects
 					{
 					};
@@ -997,11 +996,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={3307.3411,224.29852,2864.2534};
+					position[]={4346.2656,224.86635,3790.873};
 					id=22;
 					side="WEST";
 					vehicle="B_Soldier_F";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -1153,38 +1152,38 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=12;
+		items=11;
 		class Item0
-		{
-			position[]={3305.0862,225.62146,2871.9453};
-			azimut=220;
-			id=33;
-			side="EMPTY";
-			vehicle="B_APC_Tracked_01_AA_F";
-			skill=0.60000002;
-		};
-		class Item1
 		{
 			position[]={4340.7271,224.00626,3777.9141};
 			azimut=35;
-			id=34;
+			id=33;
 			side="EMPTY";
 			vehicle="B_supplyCrate_F";
 			skill=0.60000002;
 			init="this addAction[""<t color='#ff1111'>Virtual Ammobox</t>"", ""VAS\open.sqf""]; [""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;";
 		};
-		class Item2
+		class Item1
 		{
 			position[]={4386.3823,227.15997,3811.3843};
 			azimut=270;
-			id=35;
+			id=34;
 			side="EMPTY";
 			vehicle="EWK_HMMWV_Medevac";
 			skill=0.60000002;
 		};
-		class Item3
+		class Item2
 		{
 			position[]={4386.2515,227.15761,3816.0728};
+			azimut=270;
+			id=35;
+			side="EMPTY";
+			vehicle="EWK_m1151_m2_deployment_AT4";
+			skill=0.60000002;
+		};
+		class Item3
+		{
+			position[]={4386.2324,227.23116,3820.8486};
 			azimut=270;
 			id=36;
 			side="EMPTY";
@@ -1193,7 +1192,7 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={4386.2324,227.23116,3820.8486};
+			position[]={4386.2852,227.44525,3825.6245};
 			azimut=270;
 			id=37;
 			side="EMPTY";
@@ -1202,8 +1201,8 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={4386.2852,227.44525,3825.6245};
-			azimut=270;
+			position[]={4380.4185,227.39592,3828.688};
+			azimut=180;
 			id=38;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
@@ -1211,7 +1210,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={4380.4185,227.39592,3828.688};
+			position[]={4354.0562,226.761,3828.8135};
 			azimut=180;
 			id=39;
 			side="EMPTY";
@@ -1220,7 +1219,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={4354.0562,226.761,3828.8135};
+			position[]={4359.1191,226.89444,3828.8101};
 			azimut=180;
 			id=40;
 			side="EMPTY";
@@ -1229,7 +1228,7 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={4359.1191,226.89444,3828.8101};
+			position[]={4364.4038,227.10503,3828.8359};
 			azimut=180;
 			id=41;
 			side="EMPTY";
@@ -1238,7 +1237,7 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={4364.4038,227.10503,3828.8359};
+			position[]={4369.4116,227.22067,3828.8394};
 			azimut=180;
 			id=42;
 			side="EMPTY";
@@ -1247,18 +1246,9 @@ class Mission
 		};
 		class Item10
 		{
-			position[]={4369.4116,227.22067,3828.8394};
-			azimut=180;
-			id=43;
-			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
-			skill=0.60000002;
-		};
-		class Item11
-		{
 			position[]={4374.6563,227.37059,3828.7422};
 			azimut=180;
-			id=44;
+			id=43;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
