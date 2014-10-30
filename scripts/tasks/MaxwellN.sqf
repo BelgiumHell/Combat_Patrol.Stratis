@@ -1,0 +1,15 @@
+m1 setCombatMode "BLUE";
+m2 setCombatMode "BLUE";
+m3 setCombatMode "BLUE";
+m4 setCombatMode "BLUE";
+m5 setCombatMode "BLUE";
+m6 setCombatMode "BLUE";
+m7 setCombatMode "BLUE";
+m8 setCombatMode "BLUE";
+m9 setCombatMode "BLUE";
+m10 setCombatMode "BLUE";
+m11 setCombatMode "BLUE";
+m12 setCombatMode "BLUE";
+m13 setCombatMode "BLUE";
+m14 setCombatMode "BLUE";
+m15 setCombatMode "BLUE";
