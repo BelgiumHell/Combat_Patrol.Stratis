@@ -1,4 +1,6 @@
-OnLoadMission = "Virtual Ammobox System";
+loadScreen = "loadScreen.paa";
+author = "Jochem";
+OnLoadMission = "Terrorist have captured civilians in the airport terminal. Free them and arrest or kill the terrorists";
 respawn = BASE;
 respawndelay = 10;
 disabledAI = true;
