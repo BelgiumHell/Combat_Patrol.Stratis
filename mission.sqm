@@ -43,7 +43,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={4348.002,225.54013,3797.6514};
+					position[]={3742.3867,180.20351,3122.3325};
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -303,7 +303,7 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={4335.9092,223.74614,3786.877};
+			position[]={3740.6875,175.06752,3170.5942};
 			azimut=220;
 			id=3;
 			side="EMPTY";
@@ -321,6 +321,7 @@ class Mission
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
+			expActiv="nul = []execVM ""\scripts\Maxwell.sqf"";";
 			class Effects
 			{
 			};
