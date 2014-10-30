@@ -1,7 +1,7 @@
 loadScreen = "loadScreen.paa";
-author = "Jochem";
-OnLoadMission = "Terrorist have captured civilians in the airport terminal. Free them and arrest or kill the terrorists";
-respawn = BASE;
+author = "Cruelty and Jochem";
+OnLoadMission = "Combat Patrol";
+respawn = 1;
 respawndelay = 10;
 disabledAI = true;
 enableDebugConsole = 2;
