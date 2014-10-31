@@ -1316,8 +1316,8 @@ class Mission
 		class Item2
 		{
 			position[]={2979.0027,171.39999,1868.332};
-			a=600;
-			b=600;
+			a=500;
+			b=500;
 			activationBy="WEST";
 			interruptable=1;
 			age="UNKNOWN";
