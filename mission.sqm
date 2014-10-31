@@ -1164,7 +1164,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=11;
+		items=10;
 		class Item0
 		{
 			position[]={4340.7271,224.00626,3777.9141};
@@ -1177,7 +1177,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={4386.3823,227.15997,3811.3843};
+			position[]={4386.3823,227.17099,3815.5088};
 			azimut=270;
 			id=39;
 			side="EMPTY";
@@ -1186,7 +1186,7 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={4386.2515,227.15761,3816.0728};
+			position[]={4386.2324,227.23116,3820.8486};
 			azimut=270;
 			id=40;
 			side="EMPTY";
@@ -1195,7 +1195,7 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={4386.2324,227.23116,3820.8486};
+			position[]={4386.2852,227.44525,3825.6245};
 			azimut=270;
 			id=41;
 			side="EMPTY";
@@ -1204,8 +1204,8 @@ class Mission
 		};
 		class Item4
 		{
-			position[]={4386.2852,227.44525,3825.6245};
-			azimut=270;
+			position[]={4380.4185,227.39592,3828.688};
+			azimut=180;
 			id=42;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
@@ -1213,7 +1213,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={4380.4185,227.39592,3828.688};
+			position[]={4374.6563,227.37059,3828.7422};
 			azimut=180;
 			id=43;
 			side="EMPTY";
@@ -1222,47 +1222,42 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={4354.0562,226.761,3828.8135};
+			position[]={4369.5869,227.1441,3827.5386};
 			azimut=180;
 			id=44;
 			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
+			vehicle="EWK_m1151_m240_deployment";
+			leader=1;
 			skill=0.60000002;
 		};
 		class Item7
 		{
-			position[]={4359.1191,226.89444,3828.8101};
+			position[]={4364.7769,227.03198,3827.5161};
 			azimut=180;
 			id=45;
 			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
+			vehicle="EWK_m1151_m240_deployment";
+			leader=1;
 			skill=0.60000002;
 		};
 		class Item8
 		{
-			position[]={4364.4038,227.10503,3828.8359};
+			position[]={4360.1426,226.87358,3827.5518};
 			azimut=180;
 			id=46;
 			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
+			vehicle="EWK_m1151_m240_deployment";
+			leader=1;
 			skill=0.60000002;
 		};
 		class Item9
 		{
-			position[]={4369.4116,227.22067,3828.8394};
+			position[]={4355.293,226.76527,3827.5884};
 			azimut=180;
 			id=47;
 			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
-			skill=0.60000002;
-		};
-		class Item10
-		{
-			position[]={4374.6563,227.37059,3828.7422};
-			azimut=180;
-			id=48;
-			side="EMPTY";
-			vehicle="EWK_m1151_m2_deployment_AT4";
+			vehicle="EWK_m1151_m240_deployment";
+			leader=1;
 			skill=0.60000002;
 		};
 	};
