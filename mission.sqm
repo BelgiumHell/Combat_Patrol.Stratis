@@ -23,7 +23,8 @@ class Mission
 		"A3_Characters_F_INDEP",
 		"A3_Armor_F_Panther",
 		"A3_Data_F_Curator_Characters",
-		"A3_Soft_F_MRAP_03"
+		"A3_Soft_F_MRAP_03",
+		"JS_JC_FA18"
 	};
 	addOnsAuto[]=
 	{
@@ -45,6 +46,7 @@ class Mission
 		"A3_Soft_F_MRAP_03",
 		"A3_Weapons_F_Ammoboxes",
 		"EWK_M1151",
+		"JS_JC_FA18",
 		"a3_map_stratis"
 	};
 	randomSeed=10353230;
@@ -65,7 +67,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=18;
+		items=19;
 		class Item0
 		{
 			side="WEST";
@@ -74,7 +76,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={4339.7842,224.59756,3793.9937};
+					position[]={1901.5657,5.5,5943.501};
 					id=0;
 					side="WEST";
 					vehicle="B_Soldier_F";
@@ -1161,15 +1163,34 @@ class Mission
 				};
 			};
 		};
+		class Item18
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={1894.0038,5.5,5954.8096};
+					azimut=240;
+					id=38;
+					side="WEST";
+					vehicle="B_Pilot_F";
+					leader=1;
+					skill=0.60000002;
+					text="pilot1";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
-		items=11;
+		items=13;
 		class Item0
 		{
 			position[]={4340.7271,224.00626,3777.9141};
 			azimut=35;
-			id=38;
+			id=39;
 			side="EMPTY";
 			vehicle="B_supplyCrate_F";
 			skill=0.60000002;
@@ -1179,7 +1200,7 @@ class Mission
 		{
 			position[]={4386.3823,227.15997,3811.3843};
 			azimut=270;
-			id=39;
+			id=40;
 			side="EMPTY";
 			vehicle="EWK_HMMWV_Medevac";
 			skill=0.60000002;
@@ -1188,7 +1209,7 @@ class Mission
 		{
 			position[]={4386.2515,227.15761,3816.0728};
 			azimut=270;
-			id=40;
+			id=41;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1197,7 +1218,7 @@ class Mission
 		{
 			position[]={4386.2324,227.23116,3820.8486};
 			azimut=270;
-			id=41;
+			id=42;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1206,7 +1227,7 @@ class Mission
 		{
 			position[]={4386.2852,227.44525,3825.6245};
 			azimut=270;
-			id=42;
+			id=43;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1215,7 +1236,7 @@ class Mission
 		{
 			position[]={4380.4185,227.39592,3828.688};
 			azimut=180;
-			id=43;
+			id=44;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1224,7 +1245,7 @@ class Mission
 		{
 			position[]={4354.0562,226.761,3828.8135};
 			azimut=180;
-			id=44;
+			id=45;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1233,7 +1254,7 @@ class Mission
 		{
 			position[]={4359.1191,226.89444,3828.8101};
 			azimut=180;
-			id=45;
+			id=46;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1242,7 +1263,7 @@ class Mission
 		{
 			position[]={4364.4038,227.10503,3828.8359};
 			azimut=180;
-			id=46;
+			id=47;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1251,7 +1272,7 @@ class Mission
 		{
 			position[]={4369.4116,227.22067,3828.8394};
 			azimut=180;
-			id=47;
+			id=48;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -1260,10 +1281,30 @@ class Mission
 		{
 			position[]={4374.6563,227.37059,3828.7422};
 			azimut=180;
-			id=48;
+			id=49;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
+		};
+		class Item11
+		{
+			position[]={1913.6038,5.5041947,5954.9556};
+			azimut=240;
+			id=50;
+			side="EMPTY";
+			vehicle="JS_JC_FA18E";
+			skill=0.60000002;
+			text="jet";
+		};
+		class Item12
+		{
+			position[]={1905.4607,5.5,5939.4604};
+			azimut=35;
+			id=51;
+			side="EMPTY";
+			vehicle="B_supplyCrate_F";
+			skill=0.60000002;
+			init="this addAction[""<t color='#ff1111'>Virtual Ammobox</t>"", ""VAS\open.sqf""]; [""AmmoboxInit"",[this,true]] call BIS_fnc_arsenal;";
 		};
 	};
 	class Markers
