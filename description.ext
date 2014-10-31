@@ -1,4 +1,4 @@
-loadScreen = "loadScreen.paa";
+loadScreen = "load.paa";
 author = "Cruelty and Jochem";
 OnLoadMission = "Combat Patrol";
 respawn = 1;
