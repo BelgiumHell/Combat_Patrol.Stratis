@@ -1919,17 +1919,18 @@ class Mission
 				items=8;
 				class Item0
 				{
-					position[]={2686.4956,92.807602,2565.9033};
+					position[]={2694.5488,101.34357,2545.2632};
+					azimut=170;
 					id=74;
 					side="GUER";
-					vehicle="I_soldier_SL_F";
+					vehicle="I_Soldier_SL_F";
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
 				};
 				class Item1
 				{
-					position[]={2691.4956,94.293892,2560.9033};
+					position[]={2698.9873,91.507599,2569.0293};
 					id=75;
 					side="GUER";
 					vehicle="I_soldier_TL_F";
@@ -1938,7 +1939,7 @@ class Mission
 				};
 				class Item2
 				{
-					position[]={2681.4956,95.570015,2560.9033};
+					position[]={2688.9873,91.4226,2569.0293};
 					id=76;
 					side="GUER";
 					vehicle="I_soldier_AR_F";
@@ -1947,7 +1948,7 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={2696.4956,96.225182,2555.9033};
+					position[]={2703.9873,94.196983,2564.0293};
 					id=77;
 					side="GUER";
 					vehicle="I_soldier_AR_F";
@@ -1955,7 +1956,7 @@ class Mission
 				};
 				class Item4
 				{
-					position[]={2676.4956,97.91671,2555.9033};
+					position[]={2683.9873,93.928787,2564.0293};
 					id=78;
 					side="GUER";
 					vehicle="I_soldier_AAR_F";
@@ -1963,7 +1964,7 @@ class Mission
 				};
 				class Item5
 				{
-					position[]={2701.4956,98.873535,2550.9033};
+					position[]={2708.9873,97.129463,2559.0293};
 					id=79;
 					side="GUER";
 					vehicle="I_soldier_LAT_F";
@@ -1972,7 +1973,7 @@ class Mission
 				};
 				class Item6
 				{
-					position[]={2671.4956,99.672752,2550.9033};
+					position[]={2678.9873,96.572319,2559.0293};
 					id=80;
 					side="GUER";
 					vehicle="I_medic_F";
@@ -1980,7 +1981,7 @@ class Mission
 				};
 				class Item7
 				{
-					position[]={2706.4956,101.43855,2545.9033};
+					position[]={2713.9873,99.863495,2554.0293};
 					id=81;
 					side="GUER";
 					vehicle="I_soldier_A_F";
@@ -2115,7 +2116,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			position[]={4277.2886,211.08279,3703.2012};
@@ -2130,6 +2131,17 @@ class Mission
 			name="jet";
 			type="n_plane";
 			colorName="ColorWEST";
+		};
+		class Item2
+		{
+			position[]={2758.8535,49.892315,2221.186};
+			name="area";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorGUER";
+			fillName="FDiagonal";
+			a=2000;
+			b=2000;
 		};
 	};
 	class Sensors
