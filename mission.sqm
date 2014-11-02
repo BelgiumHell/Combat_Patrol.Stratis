@@ -26,7 +26,8 @@ class Mission
 		"A3_Soft_F_MRAP_03",
 		"JS_JC_FA18",
 		"A3_Modules_F_Curator_Ordnance",
-		"A3_Air_F_Gamma_Plane_Fighter_03"
+		"A3_Air_F_Gamma_Plane_Fighter_03",
+		"A3_Characters_F_Civil"
 	};
 	addOnsAuto[]=
 	{
@@ -48,6 +49,7 @@ class Mission
 		"A3_Data_F_Curator_Characters",
 		"A3_Modules_F_Curator_Ordnance",
 		"A3_Air_F_Gamma_Plane_Fighter_03",
+		"A3_Characters_F_Civil",
 		"A3_Weapons_F_Ammoboxes",
 		"EWK_M1151",
 		"JS_JC_FA18",
@@ -78,7 +80,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=43;
+		items=44;
 		class Item0
 		{
 			side="LOGIC";
@@ -435,7 +437,7 @@ class Mission
 						items=4;
 						class Item0
 						{
-							value="command";
+							value="z1";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -482,7 +484,7 @@ class Mission
 						items=4;
 						class Item0
 						{
-							value="""76561198028474630""";
+							value="z2";
 							parentCls="ModuleCurator_F";
 							typeName="Owner";
 						};
@@ -816,7 +818,7 @@ class Mission
 					vehicle="B_officer_F";
 					player="PLAYER COMMANDER";
 					leader=1;
-					rank="MAJOR";
+					rank="COLONEL";
 					skill=0.60000002;
 					text="command";
 				};
@@ -2372,6 +2374,37 @@ class Mission
 				};
 			};
 		};
+		class Item43
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={7104.0547,8.5967655,5997.8623};
+					id=93;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					leader=1;
+					rank="COLONEL";
+					skill=0.60000002;
+					text="z1";
+				};
+				class Item1
+				{
+					position[]={7107.2593,8.7516775,5996.6904};
+					id=94;
+					side="CIV";
+					vehicle="C_man_1";
+					player="PLAY CDG";
+					rank="COLONEL";
+					skill=0.60000002;
+					text="z2";
+				};
+			};
+		};
 	};
 	class Vehicles
 	{
@@ -2380,7 +2413,7 @@ class Mission
 		{
 			position[]={4340.7271,224.00626,3777.9141};
 			azimut=35;
-			id=93;
+			id=95;
 			side="EMPTY";
 			vehicle="B_supplyCrate_F";
 			skill=0.60000002;
@@ -2390,7 +2423,7 @@ class Mission
 		{
 			position[]={4386.3823,227.15997,3811.3843};
 			azimut=270;
-			id=94;
+			id=96;
 			side="EMPTY";
 			vehicle="EWK_HMMWV_Medevac";
 			skill=0.60000002;
@@ -2399,7 +2432,7 @@ class Mission
 		{
 			position[]={4386.2515,227.15761,3816.0728};
 			azimut=270;
-			id=95;
+			id=97;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2408,7 +2441,7 @@ class Mission
 		{
 			position[]={4386.2324,227.23116,3820.8486};
 			azimut=270;
-			id=96;
+			id=98;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2417,7 +2450,7 @@ class Mission
 		{
 			position[]={4386.2852,227.44525,3825.6245};
 			azimut=270;
-			id=97;
+			id=99;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2426,7 +2459,7 @@ class Mission
 		{
 			position[]={4380.4185,227.39592,3828.688};
 			azimut=180;
-			id=98;
+			id=100;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2435,7 +2468,7 @@ class Mission
 		{
 			position[]={4354.0562,226.761,3828.8135};
 			azimut=180;
-			id=99;
+			id=101;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2444,7 +2477,7 @@ class Mission
 		{
 			position[]={4359.1191,226.89444,3828.8101};
 			azimut=180;
-			id=100;
+			id=102;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2453,7 +2486,7 @@ class Mission
 		{
 			position[]={4364.4038,227.10503,3828.8359};
 			azimut=180;
-			id=101;
+			id=103;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2462,7 +2495,7 @@ class Mission
 		{
 			position[]={4369.4116,227.22067,3828.8394};
 			azimut=180;
-			id=102;
+			id=104;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2471,7 +2504,7 @@ class Mission
 		{
 			position[]={4374.6563,227.37059,3828.7422};
 			azimut=180;
-			id=103;
+			id=105;
 			side="EMPTY";
 			vehicle="EWK_m1151_m2_deployment_AT4";
 			skill=0.60000002;
@@ -2480,7 +2513,7 @@ class Mission
 		{
 			position[]={1913.6038,5.5041947,5954.9556};
 			azimut=240;
-			id=104;
+			id=106;
 			side="EMPTY";
 			vehicle="JS_JC_FA18E";
 			skill=0.60000002;
@@ -2490,7 +2523,7 @@ class Mission
 		{
 			position[]={1905.4607,5.5,5939.4604};
 			azimut=35;
-			id=105;
+			id=107;
 			side="EMPTY";
 			vehicle="B_supplyCrate_F";
 			skill=0.60000002;
