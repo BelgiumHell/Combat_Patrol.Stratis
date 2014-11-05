@@ -27,7 +27,8 @@ class Mission
 		"JS_JC_FA18",
 		"A3_Modules_F_Curator_Ordnance",
 		"A3_Air_F_Gamma_Plane_Fighter_03",
-		"A3_Characters_F_Civil"
+		"A3_Characters_F_Civil",
+		"A3_Air_F_EPB_Heli_Light_03"
 	};
 	addOnsAuto[]=
 	{
@@ -2389,9 +2390,9 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={15247.994,0.50831068,-3492.9351};
+					position[]={19302.842,0.056654166,-5563.7407};
 					azimut=15;
-					offsetY=2200;
+					offsetY=100;
 					special="FLY";
 					id=93;
 					side="GUER";
@@ -2406,9 +2407,9 @@ class Mission
 				items=4;
 				class Item0
 				{
-					position[]={15111.188,2199.8389,-3592.5005};
+					position[]={18984.477,2200.3203,-5614.8657};
 					combatMode="BLUE";
-					combat="COMBAT";
+					combat="SAFE";
 					synchronizations[]={27};
 					class Effects
 					{
@@ -2418,7 +2419,7 @@ class Mission
 				};
 				class Item1
 				{
-					position[]={3405.9668,500.21091,557.52686};
+					position[]={3405.9668,1000.0043,557.52686};
 					combatMode="BLUE";
 					speed="NORMAL";
 					class Effects
@@ -2437,7 +2438,8 @@ class Mission
 				};
 				class Item3
 				{
-					position[]={6501.3354,8000.0547,8510.5654};
+					position[]={4367.8164,726.3241,3793.9995};
+					type="SAD";
 					class Effects
 					{
 					};
@@ -2882,7 +2884,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=14;
+		items=18;
 		class Item0
 		{
 			position[]={4340.7271,224.00626,3777.9141};
@@ -3012,6 +3014,38 @@ class Mission
 			side="EMPTY";
 			vehicle="EWK_m1151_TOW_deployment";
 			leader=1;
+			skill=0.60000002;
+		};
+		class Item14
+		{
+			position[]={3674.1499,156.37791,2872.9688};
+			id=148;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoOrd_F";
+			skill=0.60000002;
+		};
+		class Item15
+		{
+			position[]={3057.7532,172.28046,2162.7534};
+			id=149;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoOrd_F";
+			skill=0.60000002;
+		};
+		class Item16
+		{
+			position[]={2795.0134,143.28319,1743.3032};
+			id=150;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoOrd_F";
+			skill=0.60000002;
+		};
+		class Item17
+		{
+			position[]={2084.9558,15.08147,2730.4106};
+			id=151;
+			side="EMPTY";
+			vehicle="Box_IND_AmmoOrd_F";
 			skill=0.60000002;
 		};
 	};
