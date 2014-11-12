@@ -1,11 +1,12 @@
 loadScreen = "load.paa";
 author = "Cruelty and Jochem";
 OnLoadName = "Combat patrol";
-OnLoadMission = "Combat Patrol";
+OnLoadMission = "Intel reports Taliban operating in the south of ALtis. Move out and patrol the area.";
 respawn = 1;
 respawndelay = 10;
 disabledAI = true;
 enableDebugConsole = 2;
+wreckManagerMode = 0;
 
 #include "VAS\menu.hpp"
 
