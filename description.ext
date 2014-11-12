@@ -1,5 +1,6 @@
 loadScreen = "load.paa";
 author = "Cruelty and Jochem";
+OnLoadName = "Combat patrol";
 OnLoadMission = "Combat Patrol";
 respawn = 1;
 respawndelay = 10;

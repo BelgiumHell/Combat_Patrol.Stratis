@@ -689,6 +689,8 @@ class Mission
 					rank="LIEUTENANT";
 					skill=0.60000002;
 					text="m1";
+					syncId=0;
+					synchronizations[]={26};
 				};
 				class Item1
 				{
@@ -854,7 +856,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={2699.2493,55.220337,810.59619};
+					position[]={2284.1792,55.082993,2225.373};
 					id=29;
 					side="WEST";
 					vehicle="B_officer_F";
@@ -863,8 +865,8 @@ class Mission
 					rank="COLONEL";
 					skill=0.60000002;
 					text="command";
-					syncId=0;
-					synchronizations[]={0};
+					syncId=1;
+					synchronizations[]={1};
 				};
 			};
 			class Waypoints
@@ -993,8 +995,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=1;
-					synchronizations[]={21,3};
+					syncId=2;
+					synchronizations[]={23,4};
 				};
 			};
 		};
@@ -1013,8 +1015,8 @@ class Mission
 					vehicle="I_MRAP_03_gmg_F";
 					leader=1;
 					skill=0.60000002;
-					syncId=2;
-					synchronizations[]={21};
+					syncId=3;
+					synchronizations[]={23};
 				};
 				class Item1
 				{
@@ -1106,8 +1108,8 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					text="Connor";
-					syncId=3;
-					synchronizations[]={22,1};
+					syncId=4;
+					synchronizations[]={24,2};
 				};
 			};
 		};
@@ -1388,8 +1390,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=4;
-					synchronizations[]={5,24};
+					syncId=5;
+					synchronizations[]={6,26};
 				};
 			};
 		};
@@ -1454,8 +1456,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=5;
-					synchronizations[]={23,4};
+					syncId=6;
+					synchronizations[]={25,5};
 				};
 			};
 		};
@@ -1728,7 +1730,7 @@ class Mission
 						items=7;
 						class Item0
 						{
-							value="1";
+							value="4";
 							parentCls="ModuleTaskCreate_F";
 							typeName="Owner";
 						};
@@ -1775,8 +1777,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=6;
-					synchronizations[]={25,7};
+					syncId=7;
+					synchronizations[]={27,8};
 				};
 			};
 		};
@@ -1805,8 +1807,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=7;
-					synchronizations[]={6,26};
+					syncId=8;
+					synchronizations[]={7,28};
 				};
 			};
 		};
@@ -2052,12 +2054,12 @@ class Mission
 				class Item0
 				{
 					position[]={2688.979,105.7076,2536.7783};
-					synchronizations[]={29};
+					synchronizations[]={31};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					syncId=18;
+					syncId=20;
 				};
 				class Item1
 				{
@@ -2098,8 +2100,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=8;
-					synchronizations[]={28};
+					syncId=9;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2129,8 +2131,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=9;
-					synchronizations[]={28};
+					syncId=10;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2160,8 +2162,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=10;
-					synchronizations[]={28};
+					syncId=11;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2191,8 +2193,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=11;
-					synchronizations[]={28};
+					syncId=12;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2222,8 +2224,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=12;
-					synchronizations[]={28};
+					syncId=13;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2253,8 +2255,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=13;
-					synchronizations[]={28};
+					syncId=14;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2284,8 +2286,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=14;
-					synchronizations[]={28};
+					syncId=15;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2315,8 +2317,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=15;
-					synchronizations[]={28};
+					syncId=16;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2346,8 +2348,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=16;
-					synchronizations[]={28};
+					syncId=17;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2377,8 +2379,8 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
-					syncId=17;
-					synchronizations[]={28};
+					syncId=18;
+					synchronizations[]={30};
 				};
 			};
 		};
@@ -2410,12 +2412,12 @@ class Mission
 					position[]={18984.477,2200.3203,-5614.8657};
 					combatMode="BLUE";
 					combat="SAFE";
-					synchronizations[]={27};
+					synchronizations[]={29};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					syncId=19;
+					syncId=21;
 				};
 				class Item1
 				{
@@ -2631,6 +2633,8 @@ class Mission
 					leader=1;
 					rank="SERGEANT";
 					skill=0.5;
+					syncId=19;
+					synchronizations[]={28};
 				};
 				class Item1
 				{
@@ -2861,12 +2865,12 @@ class Mission
 				class Item0
 				{
 					position[]={2718.1973,94.684509,2431.1416};
-					synchronizations[]={29};
+					synchronizations[]={31};
 					class Effects
 					{
 					};
 					showWP="NEVER";
-					syncId=20;
+					syncId=22;
 				};
 				class Item1
 				{
@@ -3007,7 +3011,7 @@ class Mission
 		};
 		class Item13
 		{
-			position[]={2701.8596,54.870712,805.4458};
+			position[]={2281.8447,54.604485,2244.2734};
 			azimut=180;
 			special="FLY";
 			id=147;
@@ -3094,8 +3098,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={1,2};
-			syncId=21;
+			synchronizations[]={2,3};
+			syncId=23;
 		};
 		class Item1
 		{
@@ -3108,8 +3112,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={3};
-			syncId=22;
+			synchronizations[]={4};
+			syncId=24;
 		};
 		class Item2
 		{
@@ -3122,8 +3126,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={5};
-			syncId=23;
+			synchronizations[]={6};
+			syncId=25;
 		};
 		class Item3
 		{
@@ -3137,12 +3141,12 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={4};
-			syncId=24;
+			synchronizations[]={5,0};
+			syncId=26;
 		};
 		class Item4
 		{
-			position[]={2032.376,6.4840741,2716.3159};
+			position[]={2039.6074,3.5872924,2717.6343};
 			a=500;
 			b=500;
 			activationBy="WEST";
@@ -3151,21 +3155,23 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={6};
-			syncId=25;
+			synchronizations[]={7};
+			syncId=27;
 		};
 		class Item5
 		{
 			position[]={2021.6421,3.357018,2718.043};
 			a=150;
 			b=150;
+			activationBy="GUER";
+			activationType="NOT PRESENT";
 			interruptable=1;
 			age="UNKNOWN";
 			class Effects
 			{
 			};
-			synchronizations[]={7};
-			syncId=26;
+			synchronizations[]={8,19};
+			syncId=28;
 		};
 		class Item6
 		{
@@ -3178,8 +3184,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={19};
-			syncId=27;
+			synchronizations[]={21};
+			syncId=29;
 		};
 		class Item7
 		{
@@ -3193,8 +3199,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={8,15,9,12,16,14,11,17,10,13};
-			syncId=28;
+			synchronizations[]={9,16,10,13,17,15,12,18,11,14};
+			syncId=30;
 		};
 		class Item8
 		{
@@ -3205,8 +3211,8 @@ class Mission
 			class Effects
 			{
 			};
-			synchronizations[]={20,18};
-			syncId=29;
+			synchronizations[]={22,20};
+			syncId=31;
 		};
 	};
 };
